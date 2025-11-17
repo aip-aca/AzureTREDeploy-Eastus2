@@ -17,8 +17,8 @@ on: # yamllint disable-line rule:truthy
     branches: [main]
   pull_request:
     branches: [main]
-  schedule:
-    - cron: "41 3 * * 5"
+  #schedule:
+   # - cron: "41 3 * * 5"
 
 # for each ref (branch/pr) run just the most recent,
 # cancel other pending/running ones
